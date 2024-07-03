@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contato</title>
+</head>
+
+<body>
+    <h1>fomulario de contato</h1>
+    <hr>
+    <br>
+
+    <form action="https://api-send-email-m9xz.onrender.com/alex.maral16@gmail.com" method="post">
+        <div>
+            <label for="name">Nome</label><br>
+            <input type="text"name="name" id="name" placeholder="insira seu nome completo">
+        </div>
+        <div>
+            <label for="email">email</label><br>
+            <input type="email" name="email" id="name">
+        </div>
+        <div>
+            <fieldset>
+                <legend>assunto</legend>
+                <input type="radio" name="subject" id="sugestao"value="sugestao">
+                <label for="sugestao">sugestao</label>
+                <br>
+                <input type="radio" name="subject" id="contato"value="contato">
+                <label for="contato">contato</label>
+                <br>
+                <input type="radio" name="subject" id="outros"value="outros">
+                <label for="outros">outros</label>
+
+            </fieldset>
+            
+        </div>
+        <div>
+            <label for="message">mensagem</label><br>
+            <textarea name="message" id="message" cols="40" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <button>enviar</button>
+        </div>
+
+    </form>
+    
+</body>
+</html>
