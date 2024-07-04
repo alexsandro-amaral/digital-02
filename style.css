@@ -1,0 +1,75 @@
+section {
+    position: relative;
+    background-color: aqua;
+    height: 500px;
+}
+.box{
+    width: 120px;
+    height: 120px;
+
+}
+.red {
+    background-color: darkred;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: ;
+    bottom: ;
+        }
+.blue {
+    background-color: darkblue;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+
+}
+.yellow{
+    background-color: darkgoldenrod;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+
+}
+.green{
+    background-color: darkgreen;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+}
+.pink{
+        background: pink;
+        position: fixed;
+        right: 20px;
+        top: 20px;
+
+    }
+
+    .preto{
+    background-color: black;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    }
+    .cinza{
+        background-color: gray;
+        position: absolute;
+        bottom: 40px;
+        right: 40px;
+    }
+    .roxo{
+        background-color:purple;
+        position: absolute;
+        bottom: 60px;
+        right: 60px;
+    }
+    .salmao{
+        background-color:salmon;
+        position: absolute;
+        bottom: 80px;
+        right: 80px;
+    }
+    
+
+
+
+
